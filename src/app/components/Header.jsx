@@ -12,7 +12,7 @@ export default function Header() {
   };
   return (
     <div className="header mb:relative border-b-2">
-      <Link href={"/home"} className=" col-span-1 self-center">
+      <Link href={"/"} className=" col-span-1 self-center">
         <svg
           width="49"
           height="75"
@@ -283,7 +283,7 @@ export default function Header() {
       </Link>
       <div className="col-span-10 mb:col-span-2 self-center">
         <div className="flex gap-x-[60px] font-playfair text-[14px] mb:hidden">
-          <Link href={"/home"}>TRANG CHỦ</Link>
+          <Link href={"/"}>TRANG CHỦ</Link>
           <Link href={"/central"}>TRUNG TÂM</Link>
           <Link href={"/operahouse"}>NHÀ HÁT THÀNH PHỐ</Link>
           <Link href={"/service"}>DICH VỤ</Link>
